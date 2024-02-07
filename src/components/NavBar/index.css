@@ -1,0 +1,12 @@
+/* Write your code here. */
+
+.icon {
+  display: flex;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #9796f0;
+}
