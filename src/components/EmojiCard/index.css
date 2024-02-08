@@ -2,6 +2,24 @@
 .each-emoji {
   background-color: #9796f0;
   padding: 30px;
-  border-radius: 10px;
+  border-radius: 15px;
   margin: 5px;
+  cursor: pointer;
+}
+
+/* Write your code here. */
+.li-ele {
+  list-style-type: none;
+  border-radius: 1rem;
+  margin: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.btn-styling {
+  border: none;
+  background-color: transparent;
 }

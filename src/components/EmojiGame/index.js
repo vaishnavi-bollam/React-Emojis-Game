@@ -2,6 +2,7 @@ import {Component} from 'react'
 import NavBar from '../NavBar/index'
 import EmojiCard from '../EmojiCard/index'
 import WinorLoss from '../WinOrLoseCard/index'
+import './index.css'
 
 /* 
 Quick Tip 
@@ -101,12 +102,12 @@ class EmojiGame extends Component {
     }
 
     return (
-      <div>
+      <div className="main-bg">
         <div>
           <NavBar scoreValue={scoreValue} topScoreValue={topScoreValue} />
         </div>
-        <div>
-          <ul>{renderEmojisUi()}</ul>
+        <div className="li-container">
+          <ul className="Emojis-styling">{renderEmojisUi()}</ul>
         </div>
       </div>
     )

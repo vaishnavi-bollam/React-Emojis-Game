@@ -9,4 +9,17 @@
   flex-direction: row;
   justify-content: space-between;
   background-color: #9796f0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.score {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.logo {
+  height: 90px;
+  width: 100px;
+  padding-right: 5px;
 }

@@ -1,1 +1,35 @@
 /* Write your code here. */
+.lose-container {
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cardScoreContainer {
+  text-align: center;
+}
+
+.gameImg {
+  height: 220px;
+  width: 180px;
+}
+
+.btnPlay {
+  border-radius: 1rem;
+  padding: 8px 1rem;
+  background-color: #ffce27;
+  color: black;
+  border: 0px solid transparent;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.description {
+  color: white;
+  font-weight: bold;
+}
+
+.scoreText {
+  color: #6a59ff;
+}

@@ -8,14 +8,15 @@ const NavBar = props => {
     <div className="navbar-container">
       <div className="icon">
         <img
+          className="logo"
           src="https://assets.ccbp.in/frontend/react-js/game-logo-img.png "
           alt="emoji logo"
         />
         <h1>Emoji Game</h1>
       </div>
       <div className="icon">
-        <h1>Score: {scoreValue}</h1>
-        <h1>Top Score: {topScoreValue}</h1>
+        <p className="score">Score: {scoreValue}</p>
+        <p className="score">Top Score: {topScoreValue}</p>
       </div>
     </div>
   )
